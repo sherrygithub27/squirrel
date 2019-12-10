@@ -1,7 +1,5 @@
 <ul>
-	# list all csv data
-    {% for item in s_t %}
-        <li><a href="/sightings/{{ item.unique_squirrel_id}}/">{{ item.unique_squirrel_id }}
-	</a></li>
-    {% endfor %}
+	{% for item in s_t %}
+	<li><a href="/sightings/{{ item.Unique_Squirrel_ID}}/">{{ item.Unique_Squirrel_Id }}</a></li>
+	{% endfor %}
 </ul>
