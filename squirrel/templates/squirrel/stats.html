@@ -1,0 +1,28 @@
+<!doctype>
+<html>
+	<head>
+		 <title> General Stats about The Squirrel Sightings </title>
+	</head>
+    <body>
+		<p>
+			<h2>Total Number of Squirrels: {{ total_counts }} </h2>
+		</p>
+		<p>
+			<h2>When does it appear? (based on counts) </h2>
+				<ul>Active During Day: {{ AM_counts }} </ul>
+				<ul>Active During Night: {{ PM_counts }} </ul>
+			<h2>What is its age group ? (based on counts) </h2>
+				<ul>Adult: {{ adult_counts }} </ul>
+				<ul>Juvenile: {{ juvenile_counts }} </ul>
+			<h2>What color is it? (based on counts) </h2>
+				<ul>Gray: {{ gray_counts }} </ul>
+				<ul>Cinnamon: {{ cinnamon_counts }} </ul>
+				<ul>Black: {{ black_counts }}</ul>
+			<h2>Characteristics (based on counts) </h2>
+				<ul>Running Squirrels: {{ running_counts }} </ul>
+				<ul>Chasinging Squirrels: {{ chasing_counts }} </ul>
+				<ul>Climbing Squirrels: {{ climbing_counts }} </ul>
+				<ul>Eating Squirrels: {{ eating_counts }} </ul>
+		</p>
+	</body>
+</html>

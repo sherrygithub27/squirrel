@@ -49,8 +49,8 @@
         <!-- L.Icon.Default.prototype.options.iconAnchor = [0, 0]; -->
         <!-- L.Icon.Default.prototype.options.shadowSize = 15; -->
         <!-- L.Icon.Default.prototype.options.shadowAnchor = [0, 0]; -->
-        {% for sighting in s %}
-          var point_lat_lon = [{{ sighting.y }}, {{ sighting.x }}];
+        {% for sighting in s_t %}
+          var point_lat_lon = [{{ sighting.Latitude }}, {{ sighting.Longitude }}];
           var marker = L.marker(point_lat_lon).addTo(map);
         {% endfor %}
     </script>
