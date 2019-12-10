@@ -74,3 +74,6 @@ def stats(request):
     }
 
     return render(request, 'squirrel/stats.html', context)
+
+def main_page(request):
+    return render(request, 'squirrel/home.html')
